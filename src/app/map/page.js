@@ -36,7 +36,6 @@ export default function Map() {
                     <RegionList regions={regions} handleClick={handleClick} active={activeMap} />
                 </div>
             </section>
-            <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 622.4 828.85">
   <g>
     <g id="Northern_Administrative_Okrug" data-name="Northern Administrative Okrug">
