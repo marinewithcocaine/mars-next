@@ -1,0 +1,35 @@
+.main {
+    position: relative;
+    font-family: 'Montserrat';
+    background-color: #FFFAF0;
+    width: 1080px;
+    min-height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    align-items: center;
+}
+
+.container {
+    position: absolute;
+    width: 505px;
+    left: 43px;
+    top: -91px;
+
+}
+
+.container svg {
+    fill: #f00a50;
+}
+
+.title {
+    position: absolute;
+    top: 153px;
+    left: 120px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 48px;
+    line-height: 57px;
+}

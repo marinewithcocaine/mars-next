@@ -1,0 +1,87 @@
+.header {
+    font-family: 'Montserrat';
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 62px;
+    padding-left: 35px;
+    padding-right: 43px;
+    color: #0000a0;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin: 0;
+    list-style: none;
+}
+
+.nav_link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 28px;
+    transition: all .3s linear;
+}
+
+.nav_link:hover {
+    opacity: .7;
+}
+
+.nav_item {
+    display: flex;
+    align-items: center;
+}
+
+.cls-1 {
+    height: 22px;
+    width: 25px;
+    text-decoration: none;
+}
+
+.title-wrapper svg {
+    width: 550px;
+}
+
+.title-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 580px;
+    height: 500px;
+    z-index: -1;
+}
+
+.svg {
+    width: 25px;
+    fill: #0000a0;
+
+}
+
+.cls-1 {
+    stroke-width: 0px;
+}
+
+.cls-2 {
+    height: 15px;
+    width: 25px;
+    fill: #0000a0;
+    stroke-width: 0px;
+}
+
+.svg1 {
+    width: 25px;
+    height: 14px;
+}

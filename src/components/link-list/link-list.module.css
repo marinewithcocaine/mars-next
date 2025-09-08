@@ -1,0 +1,385 @@
+.linklist {
+    width: 100%;
+    min-height: 1000px;
+    position: relative;
+}
+
+.link1,
+.link2,
+.link3,
+.link4,
+.link5 {
+    position: absolute;
+    transition: all .4s linear;
+}
+
+.link1 svg,
+.link2 svg,
+.link3 svg,
+.link4 svg,
+.link5 svg{
+    transition: all .4s linear;
+}
+
+.link1 {
+    top: 45px;
+    left: 114px;
+    width: 377px;
+}
+
+.link1:hover svg{
+    transform: rotate(-15deg);
+}
+
+.link2 {
+    top: 15px;
+    left: 58%;
+    width: 396px;
+}
+
+.link2:hover svg{
+    transform: rotate(15deg);
+}
+
+.link3 {
+    top: 360px;
+    left: 300px;
+    width: 468px;
+}
+
+.link3:hover svg{
+    transform: scale(1.05);
+}
+
+.link4 {
+    top: 750px;
+    left: 120px;
+    width: 378px;
+}
+
+.link4:hover svg{
+    transform: rotate(-5deg) scale(1.03);
+}
+
+.link5 {
+    top: 760px;
+    right: 30px;
+    width: 477px;
+}
+.link5:hover svg{
+    transform: rotate(15deg);
+}
+
+.link-container1,
+.link-container2,
+.link-container3,
+.link-container4,
+.link-container5 {
+    position: relative;
+    display: block;
+}
+
+.svg1 {
+    fill: #b7198f;
+}
+
+.svg2 {
+    fill: #e32527;
+    stroke-width: 0px;
+}
+
+.svg3 {
+    fill: #ffc828;
+    stroke-width: 0px;
+}
+
+.svg4 {
+    fill: #f00a50;
+    stroke-width: 0px;
+}
+
+.svg5 {
+    fill: #ff7832;
+    stroke-width: 0px;
+}
+
+.svg6 {
+    fill: #ff1212;
+}
+
+.link_title1,
+.link_title2,
+.link_title3,
+.link_title4,
+.link_title5 {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    color: white;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.25px;
+}
+
+.link_title1 {
+    width: 260px;
+}
+
+.link_title2 {
+    top: 28%;
+    left: -4%;
+}
+
+.link_title3 {
+    top: 27%;
+    left: 3%;
+}
+
+.link_title4 {
+    width: 170px;
+    top: 30%;
+    left: 27%;
+}
+
+.link_title5 {
+    top: 30%;
+    left: 4%;
+}
+
+.linkpaw1 {
+    position: absolute;
+    top: 423px;
+    left: 144px;
+    width: 59px;
+    opacity: 0;
+    animation: step1 10s infinite linear;
+}
+
+@keyframes step1 {
+    0% {
+        opacity: 0;
+    }
+    
+    12% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+}
+
+.linkpaw2 {
+    position: absolute;
+    top: 383px;
+    left: 254px;
+    width: 63px;
+    transform: rotate(35deg);
+    opacity: 0;
+    animation: step2 10s infinite linear;
+}
+
+@keyframes step2 {
+    8% {
+        opacity: 0;
+    }
+    
+    20% {
+        opacity: 1;
+    }
+
+    58% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0;
+    }
+}
+
+.linkpaw3 {
+    position: absolute;
+    top: 255px;
+    left: 521px;
+    width: 63px;
+    transform: rotate(70deg);
+    animation: step3 10s infinite linear;
+    opacity: 0;
+}
+
+@keyframes step3 {
+    16% {
+        opacity: 0;
+    }
+    
+    28% {
+        opacity: 1;
+    }
+
+    67% {
+        opacity: 1;
+    }
+
+    77% {
+        opacity: 0;
+    }
+}
+
+.linkpaw4 {
+    position: absolute;
+    top: 398px;
+    left: 856px;
+    width: 63px;
+    transform: rotate(170deg);
+    animation: step4 10s infinite linear;
+    opacity: 0;
+}
+
+@keyframes step4 {
+    24% {
+        opacity: 0;
+    }
+    
+    35% {
+        opacity: 1;
+    }
+
+    74% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 0;
+    }
+}
+
+.linkpaw5 {
+    position: absolute;
+    top: 620px;
+    left: 880px;
+    width: 63px;
+    transform: rotate(190deg);
+    animation: step5 10s infinite linear;
+    opacity: 0;
+}
+
+@keyframes step5 {
+    30% {
+        opacity: 0;
+    }
+    
+    42% {
+        opacity: 1;
+    }
+
+    74% {
+        opacity: 1;
+    }
+
+    84% {
+        opacity: 0;
+    }
+}
+
+.linkpaw6 {
+    position: absolute;
+    top: 700px;
+    left: 790px;
+    width: 63px;
+    transform: rotate(220deg);
+    animation: step6 10s infinite linear;
+    opacity: 0;
+}
+
+@keyframes step6 {
+    40% {
+        opacity: 0;
+    }
+    
+    53% {
+        opacity: 1;
+    }
+
+    79% {
+        opacity: 1;
+    }
+
+    89% {
+        opacity: 0;
+    }
+}
+
+.linkpaw7 {
+    position: absolute;
+    top: 780px;
+    left: 535px;
+    width: 63px;
+    transform: rotate(260deg);
+    animation: step7 10s infinite linear;
+    opacity: 0;
+}
+
+@keyframes step7 {
+    60% {
+        opacity: 0;
+    }
+    
+    71% {
+        opacity: 1;
+    }
+
+    89% {
+        opacity: 1;
+    }
+
+    95% {
+        opacity: 0;
+    }
+}
+
+.linkpaw8 {
+    position: absolute;
+    top: 680px;
+    left: 155px;
+    width: 63px;
+    transform: rotate(300deg);
+    animation: step8 10s infinite linear;
+    opacity: 0;
+}
+
+@keyframes step8 {
+    70% {
+        opacity: 0;
+    }
+    
+    80% {
+        opacity: 1;
+    }
+
+    95% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.cat {
+    width: 211px;
+    position: absolute;
+    left: 76px;
+    top: 500px;
+}
+
+.dog {
+    position: absolute;
+    width: 290px;
+    left: 730px;
+    top: 460px;
+}

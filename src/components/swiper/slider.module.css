@@ -1,0 +1,32 @@
+.slider_container {
+    display: flex;
+    flex-direction: column;
+    color: #0000A0;
+    width: 100%;
+}
+
+.slider_title {
+    padding-bottom: 40px;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: -1px;
+}
+
+.slide_title {
+    width: 400px;
+    padding-top: 25px;
+    width: 400px;
+}
+
+.swiper_slide {
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.image_container {
+    position: relative;
+}
