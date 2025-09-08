@@ -1,7 +1,6 @@
 "use client"
 
 import Header from '@/components/header/header';
-import Footer from '@/components/footer/footer';
 import styles from './page.module.css';
 import Title from '@/components/title/title';
 import Slider from '@/components/swiper/slider';
