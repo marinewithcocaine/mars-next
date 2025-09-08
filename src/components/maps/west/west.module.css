@@ -1,9 +1,13 @@
 .west {
     stroke: #FF7832;
     transition: all .3s linear;
+    fill: #FF7832;
+    opacity: .3;
 }
 
 .west_active,
 .west:hover {
     fill: #FF7832;
+    opacity: 1;
+
 }

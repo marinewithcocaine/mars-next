@@ -26,14 +26,13 @@ export default function Map() {
 
     const [activeMap, setActiveMap] = useState('');
 
+      const handleMapClick = (data) => {
+        setActiveMap(data);
+      };
+
     function handleListClick(e) {
         e.preventDefault();
         setActiveMap(`${e.target.id}`);
-    }
-
-    function handleMapClick (e) {
-        e.preventDefault();
-        console.log(e.target);
     }
 
     return (
@@ -49,7 +48,7 @@ export default function Map() {
 
                 </h2>
                 <div className={styles.swiper_container}>
-                    <Slider className={styles.slider} images={images} pt="160px" />
+                    <Slider className={styles.slider} images={images} pt="160px" paw={false}/>
                     <RegionList regions={regions} handleClick={handleListClick} active={activeMap} />
                 </div>
             </section>

@@ -1,9 +1,14 @@
 .east {
     stroke: #FFC828;
     transition: all .3s linear;
+    opacity: .3;
+    fill: #FFC828;
+
 }
 
 .east_active,
 .east:hover {
     fill: #FFC828;
+    opacity: 1;
+    
 }

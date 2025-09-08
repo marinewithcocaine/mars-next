@@ -1,9 +1,13 @@
 .north {
     stroke: #C1272D;
     transition: all .3s linear;
+    opacity: .3;
+    fill: #c1272d;
+
 }
 
 .north_active,
 .north:hover {
     fill: #c1272d;
+    opacity: 1;
 }

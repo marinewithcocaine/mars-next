@@ -13,7 +13,7 @@ export default function Business() {
             <Title title={'бизнес'} color={'red'} />
             <Header />
             <section className={styles.swipers}>
-                <Slider title={`Мы участвуем в${'\u00A0'}мероприятиях, продвигающих pet${'\u2011'}friendly культуру`} images={businessImages} pt={"142px"}/>
+                <Slider title={`Мы участвуем в${'\u00A0'}мероприятиях, продвигающих pet${'\u2011'}friendly культуру`} images={businessImages} pt={"142px"} />
                 <Slider title={`Помогаем${'\u00A0'}офисам наших${'\u2011'}партнеров становиться pet${'\u2011'}friendly`} images={businessImages} pt={"142px"}/>
                 <Slider title={`Вместе с партнёрами помогаем животным в приютах`} images={businessImages} pt={"142px"}/>
                 <Slider title={`По всей стране запускаем Короба${'\u00A0'}доброты`} images={businessImages} pt={"142px"}/>

@@ -1,9 +1,13 @@
 .north_east {
     stroke: #39B54A;
     transition: all .3s linear;
+    opacity: .3;
+    fill: #39B54A;
+
 }
 
 .north_east_active,
 .north_east:hover {
     fill: #39B54A;
+    opacity: 1;
 }
