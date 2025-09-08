@@ -24,7 +24,7 @@ import SouthWest from '@/components/maps/south-west/south-west';
 
 export default function Map() {
 
-    const [activeMap, setActiveMap] = useState('center');
+    const [activeMap, setActiveMap] = useState('');
 
     function handleListClick(e) {
         e.preventDefault();
