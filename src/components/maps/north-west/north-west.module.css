@@ -1,0 +1,9 @@
+.north_west {
+    stroke: #662D91;
+    transition: all .3s linear;
+}
+
+.north_west_active,
+.north_west:hover {
+    fill: #662D91;
+}

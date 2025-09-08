@@ -1,0 +1,9 @@
+.zelenograd {
+    stroke: #22B573;
+    transition: all .3s linear;
+}
+
+.zelenograd_active,
+.zelenograd:hover {
+    fill: #22B573;
+}

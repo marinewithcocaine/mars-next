@@ -1,0 +1,9 @@
+.novomosk {
+    stroke: #B91891;
+    transition: all .3s linear;
+}
+
+.novomosk_active,
+.novomosk:hover {
+    fill: #B91891;
+}

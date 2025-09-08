@@ -1,0 +1,9 @@
+.west {
+    stroke: #FF7832;
+    transition: all .3s linear;
+}
+
+.west_active,
+.west:hover {
+    fill: #FF7832;
+}

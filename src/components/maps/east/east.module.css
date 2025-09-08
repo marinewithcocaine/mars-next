@@ -1,0 +1,9 @@
+.east {
+    stroke: #FFC828;
+    transition: all .3s linear;
+}
+
+.east_active,
+.east:hover {
+    fill: #FFC828;
+}

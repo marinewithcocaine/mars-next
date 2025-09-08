@@ -1,0 +1,9 @@
+.south_east {
+    stroke: #9E005D;
+    transition: all .3s linear;
+}
+
+.south_east_active,
+.south_east:hover {
+    fill: #9E005D;
+}

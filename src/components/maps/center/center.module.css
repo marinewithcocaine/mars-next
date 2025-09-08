@@ -1,0 +1,9 @@
+.center {
+    stroke: #808015;
+    transition: all .3s linear;
+}
+
+.center_active,
+.center:hover {
+    fill: #808015;
+}

@@ -1,0 +1,9 @@
+.troitsk {
+    stroke: #99C43F;
+    transition: all .3s linear;
+}
+
+.troitsk_active,
+.troitsk:hover {
+    fill: #99C43F;
+}
