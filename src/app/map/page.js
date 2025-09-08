@@ -66,6 +66,7 @@ export default function Map() {
                 <Zelenograd activeMap={activeMap} handleClick={handleMapClick} />
                 <SouthWest activeMap={activeMap} handleClick={handleMapClick} />
             </svg>
+            <iframe width={600} height={600} src='http://localhost:3000/map' />
         </main>
     )
 }
