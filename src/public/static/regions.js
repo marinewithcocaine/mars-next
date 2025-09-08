@@ -10,7 +10,7 @@ export const regions = [
         color: '#C1272D'
     },
     {
-        id: 'north-east',
+        id: 'north_east',
         title: 'Северо-Восточный',
         color: '#39B54A'
     },
@@ -20,7 +20,7 @@ export const regions = [
         color: '#FFC828'
     },
     {
-        id: 'south-east',
+        id: 'south_east',
         title: 'Юго-Восточный',
         color: '#9E005D'
     },
@@ -30,7 +30,7 @@ export const regions = [
         color: '#009245'
     },
     {
-        id: 'south-west',
+        id: 'south_west',
         title: 'Юго-Западный',
         color: '#FF1315'
     },
@@ -40,7 +40,7 @@ export const regions = [
         color: '#FF7832'
     },
     {
-        id: 'north-west',
+        id: 'north_west',
         title: 'Северо-Западный',
         color: '#662D91'
     },
