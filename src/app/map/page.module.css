@@ -42,15 +42,108 @@
     --swiper-navigation-top-offset: 160px;
 }
 
-.csl5 {
+.map {
+    width: 620px;
+    cursor: pointer;
     fill: #fff;
-    stroke: #39B54A;
-    stroke-width: 2px;
-    transition: all .3s linear;
+    stroke-miterlimit: 10;
 }
 
-.csl5:hover {
-    fill: #39B54A;
-    stroke: #39B54A;
-    stroke-width: 2px;
+.north {
+    stroke: #C1272D;
+    transform: all .3s linear;
 }
+
+.north:hover {
+    fill: #c1272d;
+}
+
+.center {
+    stroke: #808015;
+}
+
+.center:hover {
+    fill: #808015;
+}
+
+.south_east {
+    stroke: #9E005D;
+}
+
+.south_east:hover {
+    fill: #9E005D;
+}
+
+.south {
+    stroke: #009245;
+}
+
+.south:hover {
+    fill: #009245;
+}
+
+.north_west {
+    stroke: #662D91;
+}
+
+.north_west:hover {
+    fill: #662D91;
+}
+
+.north_east {
+    stroke: #39B54A;
+}
+
+.north_east:hover {
+    fill: #39B54A;
+}
+
+.east {
+    stroke: #FFC828;
+}
+
+.east:hover {
+    fill: #FFC828;
+}
+
+.west {
+    stroke: #FF7832;
+}
+
+.west:hover {
+    fill: #FF7832;
+}
+
+.novomosk {
+    stroke: #B91891;
+}
+
+.novomosk:hover {
+    fill: #B91891;
+}
+
+.zelenograd {
+    stroke: #22B573;
+}
+
+.zelenograd:hover {
+    fill: #22B573;
+}
+
+.troitsk {
+    stroke: #99C43F;
+}
+
+.troitsk:hover {
+    fill: #99C43F;
+}
+
+.south_west {
+    stroke: #FF1315;
+}
+
+.south_west:hover,
+.south_west_active {
+    fill: #FF1315;
+}
+
