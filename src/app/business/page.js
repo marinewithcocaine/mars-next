@@ -21,7 +21,6 @@ export default function Business() {
                 <Slider title={`Запустили проект по${'\u00A0'}защите водных ресурсов от бренда Sheba в сети Перекресток`} images={businessImages} pt={"142px"}/>
             </section>
             <Footer />
-
         </main >
     )
 }
