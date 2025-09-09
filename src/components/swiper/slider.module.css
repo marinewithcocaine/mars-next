@@ -33,6 +33,10 @@
     position: relative;
 }
 
+.image_container img {
+    object-fit: cover;
+}
+
 .hidden {
     display: none;
 }

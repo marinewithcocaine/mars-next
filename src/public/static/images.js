@@ -37,3 +37,25 @@ export const businessImages = [
         title: 'VK Fest в 2024 году Более 15к участников 8000 приняли участие в активностях на стенде'
     }
 ]
+
+export const vigulImages = [
+    {
+        src: image,
+        alt: 'Mars Image',
+        title: 'Север',
+        region: 'north'
+    },
+    {
+        src: image,
+        alt: 'Mars Image',
+        title: 'Юг',
+        region: 'south'
+
+    },
+    {
+        src: image,
+        alt: 'Mars Image',
+        title: 'Север',
+        region: 'north'
+    }
+]

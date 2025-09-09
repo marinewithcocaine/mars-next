@@ -5,9 +5,9 @@ import styles from './page.module.css';
 import Title from '@/components/title/title';
 import Slider from '@/components/swiper/slider';
 import RegionList from '@/components/region-list/region-list';
-import { images } from '@/public/static/images';
+import { vigulImages } from '@/public/static/images';
 import { regions } from '@/public/static/regions';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, act, useRef, useMemo } from 'react';
 import North from '@/components/maps/north/north';
 import East from '@/components/maps/east/east';
 import SouthEast from '@/components/maps/south-east/south-east';
@@ -23,11 +23,18 @@ import SouthWest from '@/components/maps/south-west/south-west';
 
 export default function Map() {
 
-    const [activeMap, setActiveMap] = useState('');
+    const [activeMap, setActiveMap] = useState();
 
-      const handleMapClick = (data) => {
+    const images = useMemo(() => {
+        if (!activeMap){
+            return vigulImages;
+        }
+        return vigulImages.filter((image) => image.region == activeMap);
+    })
+
+    const handleMapClick = (data) => {
         setActiveMap(data);
-      };
+    };
 
     function handleListClick(e) {
         e.preventDefault();
@@ -47,7 +54,7 @@ export default function Map() {
 
                 </h2>
                 <div className={styles.swiper_container}>
-                    <Slider className={styles.slider} images={images} pt="160px" paw={false}/>
+                    <Slider className={styles.slider} images={images} pt="160px" paw={false} />
                     <RegionList regions={regions} handleClick={handleListClick} active={activeMap} />
                 </div>
             </section>
