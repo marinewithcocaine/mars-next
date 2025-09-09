@@ -3,12 +3,14 @@
     position: relative;
     background-color: #FFFAF0;
     width: 1080px;
+    height: 1920px;
     margin-right: auto;
     margin-left: auto;
     display: flex;
     flex-direction: column;
     row-gap: 100px;
     align-items: center;
+
 }
 
 .content {
