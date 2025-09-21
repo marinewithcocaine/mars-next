@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-function Slider({ title, images, pt, paw = true }) {
+function Slider({ title, images, pt = '142px', paw = true }) {
     return (
         <div className={styles.slider_container}>
             <h2 className={styles.slider_title}>
@@ -44,7 +44,15 @@ function Slider({ title, images, pt, paw = true }) {
                                 <div className={styles.image_container}>
                                     <Image src={image.src} alt={image.alt} />
                                 </div>
-                                <h3 className={styles.slide_title}>{image.title}</h3>
+                                <ul className={styles.slide_list}>
+                                {
+                                    image.titles.map((title, key) => {
+                                        return (
+                                            <li key={key}>{title}</li>
+                                        )
+                                    })
+                                }
+                                </ul>
 
                             </SwiperSlide>
                         )
