@@ -1,6 +1,6 @@
 import styles from './title.module.css';
 
-export default function Title({ title, color, font }) {
+export default function Title({ title, color }) {
     return (
         <div className={styles.container}>
             <svg className={styles[color]} id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 582.26 313.13">
@@ -10,7 +10,7 @@ export default function Title({ title, color, font }) {
                     </g>
                 </g>
             </svg>
-            <h1 className={styles.title} style={{fontSize: font}}>{title}</h1>
+            <h1 className={styles.title}>{title}</h1>
         </div>
     )
 }

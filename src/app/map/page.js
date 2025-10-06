@@ -7,26 +7,15 @@ import Slider from '@/components/swiper/slider';
 import RegionList from '@/components/region-list/region-list';
 import { vigulImages } from '@/public/static/images';
 import { regions } from '@/public/static/regions';
-import { useState, useEffect, act, useRef, useMemo } from 'react';
-import North from '@/components/maps/north/north';
-import East from '@/components/maps/east/east';
-import SouthEast from '@/components/maps/south-east/south-east';
-import Center from '@/components/maps/center/center';
-import South from '@/components/maps/south/south';
-import NorthEast from '@/components/maps/north-east/north-east';
-import NorthWest from '@/components/maps/north-west/north-west';
-import West from '@/components/maps/west/west';
-import Novomosk from '@/components/maps/novomosk/novomosk';
-import Troitsk from '@/components/maps/troitsk/troitsk';
-import Zelenograd from '@/components/maps/zelenograd/zelenograd';
-import SouthWest from '@/components/maps/south-west/south-west';
+import { useState, useMemo } from 'react';
+import Region from '@/components/region/region';
 
 export default function Map() {
 
     const [activeMap, setActiveMap] = useState();
 
     const images = useMemo(() => {
-        if (!activeMap){
+        if (!activeMap) {
             return vigulImages;
         }
         return vigulImages.filter((image) => image.region == activeMap);
@@ -41,10 +30,16 @@ export default function Map() {
         setActiveMap(`${e.target.id}`);
     }
 
+    function path(path) {
+        return (
+            path
+        )
+    }
+
     return (
         <main className={styles.main}>
             <Title title={'выгул'} color={'green'} />
-            <Header />
+            <Header link={'cities'}  />
             <section className={styles.content}>
                 <h2>
                     Мы&nbsp;разработали&nbsp;концепт&nbsp;более&nbsp;100&nbsp;площадок
@@ -59,18 +54,15 @@ export default function Map() {
                 </div>
             </section>
             <svg className={styles.map} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 622.4 828.85">
-                <North activeMap={activeMap} handleClick={handleMapClick} />
-                <Center activeMap={activeMap} handleClick={handleMapClick} />
-                <SouthEast activeMap={activeMap} handleClick={handleMapClick} />
-                <South activeMap={activeMap} handleClick={handleMapClick} />
-                <NorthWest activeMap={activeMap} handleClick={handleMapClick} />
-                <NorthEast activeMap={activeMap} handleClick={handleMapClick} />
-                <East activeMap={activeMap} handleClick={handleMapClick} />
-                <West activeMap={activeMap} handleClick={handleMapClick} />
-                <Novomosk activeMap={activeMap} handleClick={handleMapClick} />
-                <Troitsk activeMap={activeMap} handleClick={handleMapClick} />
-                <Zelenograd activeMap={activeMap} handleClick={handleMapClick} />
-                <SouthWest activeMap={activeMap} handleClick={handleMapClick} />
+                {
+                    regions.map((region) => {
+                        return (
+                            <Region activeMap={activeMap} handleClick={handleMapClick} color={region.color} id={region.id} >
+                                {path(region.path)}
+                            </Region>
+                        )
+                    })
+                }
             </svg>
         </main>
     )

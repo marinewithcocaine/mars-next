@@ -9,11 +9,12 @@
     flex-direction: column;
     row-gap: 100px;
     align-items: center;
+    overflow: hidden;
 }
 
 .swipers {
     width: 1080px;
-    padding: 0 90px;
+    padding: 30px 90px;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(2, 423px);

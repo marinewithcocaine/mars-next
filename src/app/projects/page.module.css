@@ -3,7 +3,7 @@
     position: relative;
     background-color: #FFFAF0;
     width: 1080px;
-    min-height: 100vh;
+    height: 1920px;
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -15,7 +15,7 @@
 
 .container {
     position: absolute;
-    width: 784px;
+    width: 684px;
     left: -40px;
     top: -70px;
 }
@@ -30,38 +30,23 @@
     left: 125px;
     text-transform: uppercase;
     color: #fff;
-    font-size: 48px;
+    font-size: 36px;
     line-height: 57px;
 }
 
 .content {
     width: 100%;
-    padding: 60px 85px;
+    padding: 100px 85px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
+    row-gap: 60px;
 }
 
-.image_container {
+.path {
     position: absolute;
-    width: 1452px;
-    bottom: 200px;
-    left: -2px;
-}
-
-.test {
-    fill: none;
-    stroke-dasharray: 2000;
-    stroke-dashoffset: 4000;
-    stroke: #e42527;
-    stroke-miterlimit: 10;
-    stroke-width: 8px;
-    animation: dash 8s linear infinite;
-}
-
-@keyframes dash {
-    to {
-        stroke-dashoffset: 0;
-    }
+    bottom: 50px;
+    left: -50px;
+    width: 1280px;
 }

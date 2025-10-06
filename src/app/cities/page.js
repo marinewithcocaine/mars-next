@@ -8,7 +8,7 @@ export default function Cities() {
             <Header />
             <section className={styles.content}>
                 <div className={styles.link1}>
-                    <Link href={'/cities'} className={styles.link_container1}>
+                    <Link href={'/map'} className={styles.link_container1}>
                         <svg className={styles.svg1} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432.81 294.41">
                             <path class="cls-2" d="m221.18,294.41h-84.49C79.02,294.41,0,259.57,0,172.47v-79.3C0,41.71,46.76,0,104.43,0h212.94c196.21,0,127.87,294.41-96.19,294.41Z" />
                             <g>
@@ -45,7 +45,7 @@ export default function Cities() {
                     </Link>
                 </div>
                 <div className={styles.link2}>
-                    <Link href={'/'} className={styles.link_container2}>
+                    <Link href={'/offices'} className={styles.link_container2}>
                         <svg className={styles.svg2} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 364 359.11">
                             <path class="cls-2" d="m26.19,230.27L4.55,161.24C-10.22,114.11,7.94,37.51,103.94,7.42c0,0,61.63-12.79,140.94-4.8,79.31,7.99,115.32,98.23,119.09,245.38,3.51,136.75-280.39,165.33-337.78-17.73Z" />
                             <g id="v5qbhn">
@@ -81,7 +81,7 @@ export default function Cities() {
                 </div>
                 <div className={styles.path} >
                     <svg className={styles.test} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1209.6 277.47">
-                        <path class="cls-1" d="m.18,274.97s44.12-3.22,66.57-9.19c3.73-.99,41.05-16.49,60.5-30.85,15.69-11.58,41.35-48.65,21.37-73.42-9.73-12.07-24.11,1.06-28.96,12.32-24.97,58.03,14.09,85.66,39.67,90.09,86.57,14.98,119.6-61.64,202.38-66.97,53.09-3.42,96.13,12.33,147.47,20.23,58.81,9.05,101.35,6.89,139.33-28.46,10.11-9.41,79.29-77.06,85.66-137.2,4.52-42.61-60.22-58.46-75.82-.03,0,0-27.01-49.85-67.01-16.34-16.87,14.13-16.65,43.04,2.09,69.62,35.57,50.46,130,101.95,213.5,94.17C1047.81,176.52,1207.75,1.69,1207.75,1.69" />
+                    <path d="m3.5,276.79s101.07,2.8,154.82-40.04c15.25-12.15,38.45-54.84,21.37-73.42-9.07-9.86-24.92-5.24-31.6,12.27-17.1,50.53,14.6,83.88,42.3,90.14,88.76,20.05,123.6-59.64,206.38-64.97,53.09-3.42,92.13,10.33,143.47,18.23,58.81,9.05,101.35,6.89,139.33-28.46,8.43-7.84,36.01-34.06,60.17-80.51,30.66-58.96-33.19-81.97-53.23-33.64,0,0-21.47-33.58-47.23-16.4-10.65,7.1-22,28.24-3.26,54.83,35.57,50.46,118.36,92.6,201.95,85.96C1084.83,181.16,1238.81,3.5,1238.81,3.5" />
                     </svg>
                 </div>
                 <Link href={'/business'} className={styles.business_container}>

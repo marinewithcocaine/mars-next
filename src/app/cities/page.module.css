@@ -10,6 +10,7 @@
     align-items: center;
     background-image: url('../../public/images/cities.jpg');
     background-size: cover;
+    overflow: hidden;
 }
 
 .content {
@@ -21,7 +22,7 @@
 .link1 {
     position: absolute;
     width: 432px;
-    top: -86px;
+    top: 14px;
     left: 85px;
 }
 
@@ -44,7 +45,7 @@
 .link2 {
     position: absolute;
     width: 364px;
-    top: 70px;
+    top: 150px;
     left: 666px;
 }
 
@@ -59,7 +60,7 @@
 .link3 {
     position: absolute;
     width: 468px;
-    top: 211px;
+    top: 311px;
     left: 213px;
 }
 

@@ -8,7 +8,7 @@ function Footer() {
             <nav className={styles.nav}>
                 <ul className={styles.nav_list}>
                     <li className={styles.nav_item}>
-                        <Link href='https://marspetnutritional.tilda.ws/' className={styles.nav_link}>
+                        <Link href='/' className={styles.nav_link}>
                         <svg className={styles.svg} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.82 21.73">
                                 <path d="m26.46,0c-.75,0-1.36.61-1.36,1.36v19.01c0,.75.61,1.36,1.36,1.36s1.36-.61,1.36-1.36V1.36c0-.75-.61-1.36-1.36-1.36Zm-4.84,10.35c-.06-.17-.16-.32-.29-.45l-5.43-5.43c-.53-.53-1.4-.53-1.93,0s-.53,1.4,0,1.93l3.12,3.11H1.36c-.75,0-1.36.61-1.36,1.36s.61,1.36,1.36,1.36h15.74l-3.12,3.11c-.53.53-.54,1.39,0,1.92,0,0,0,0,0,0,.53.53,1.39.54,1.92,0,0,0,0,0,0,0l5.43-5.43c.12-.13.22-.28.29-.45.14-.33.14-.7,0-1.03Z" />
                             </svg>
