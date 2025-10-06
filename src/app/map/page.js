@@ -55,9 +55,9 @@ export default function Map() {
             </section>
             <svg className={styles.map} id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 622.4 828.85">
                 {
-                    regions.map((region) => {
+                    regions.map((region, i) => {
                         return (
-                            <Region activeMap={activeMap} handleClick={handleMapClick} color={region.color} id={region.id} >
+                            <Region activeMap={activeMap} handleClick={handleMapClick} color={region.color} id={region.id} key={i}>
                                 {path(region.path)}
                             </Region>
                         )
