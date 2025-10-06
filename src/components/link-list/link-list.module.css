@@ -17,6 +17,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .link_line {
