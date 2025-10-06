@@ -19,7 +19,7 @@ export default function Map() {
             return vigulImages;
         }
         return vigulImages.filter((image) => image.region == activeMap);
-    })
+    }, [activeMap])
 
     const handleMapClick = (data) => {
         setActiveMap(data);
